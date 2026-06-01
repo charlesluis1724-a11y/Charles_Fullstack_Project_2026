@@ -1,0 +1,67 @@
+/* .bg-image {
+  position: fixed;
+  inset: 0;
+  
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+} */
+
+ /* html { scroll-behavior: auto; } */
+
+/* body {
+    background: #111;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.Guitar_rabbit {
+    font-size: 300px;
+    font-family: archivo black;
+    background-image: url('./requirements/guitarist/525dbc48-bccc-11ed-b552-0210609a3fe2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .black-overlay {
+
+      height: 500vh;
+      position: relative;
+    }
+
+.zoom_in {
+    
+    
+} */
+
+/* .black-overlay {
+  position: relative;
+  z-index: 1;
+  background: black;
+} */
+
+
+
+/* .zoom_in {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+
+
+
+
+
