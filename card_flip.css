@@ -1,19 +1,20 @@
-.gallery-grid{
+/* .gallery-grid{
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: (2, 10px);
   gap: 2px;
   padding: 2px;
-}
+} */
 
 .flip-card {
   cursor: pointer;
   overflow: hidden;
+ /* width: 5%; */
 }
 
 .flip-card-inner {
   position: relative;
-  width: 600px;
+  width: 700px;
   height: 700px;
   transition: transform 0.5s ease;
   transform-style: preserve-3d;
@@ -28,8 +29,9 @@
   position: absolute;
   width: 700px;
   height: 700px;
-  backface-visibility: hidden; 
+  backface-visibility: hidden;
   overflow: hidden;
+  
 }
 
 .flip-card-front img,
@@ -37,7 +39,6 @@
   width: 700px;
   height: 700px;
   object-fit: cover;
-  transition: transform 0.5s ease;
 }
 
 .flip-card:hover .flip-card-front img {
@@ -46,7 +47,7 @@
 
 .flip-card-back {
   transform: rotateY(180deg);   
-  background: #1a1a1a;
+  background: #000000;
 }
 
 .gallery-grid {
